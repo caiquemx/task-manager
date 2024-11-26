@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx nodemon --exec ts-node App.ts"
   },
   "prisma": {
     "schema": "./database/schema.prisma"
@@ -26,6 +26,7 @@
     "tsc": "^2.0.4"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.17",
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2"
   }
