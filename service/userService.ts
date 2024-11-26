@@ -1,4 +1,4 @@
-import { findById, findMany } from '../repository/UserRepository';
+import { findById, findMany } from '../repository/userRepository';
 
 export const findManyUsersService = async () => {
   const result = await findMany();
